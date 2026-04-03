@@ -1,0 +1,52 @@
+h1{
+    color: #f2f2f2;
+}
+
+.tablero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid #7a1fa2;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #7a1fa2;
+    display: flex;
+    
+}
+
+.carta{
+    width: 400px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #f2f2f2;
+    
+    width: 400px;
+    
+}
+
+.info p{
+    padding: 20px;
+}
+
+.info h2{
+    margin: 20px;
+}
+
+.info button{
+    margin-top: auto;
+    background: transparent;
+    color: #f2f2f2;
+    border: 1px solid #7a1fa2;
+    box-shadow: 0 0 10px #7a1fa2;
+    font-family: 'Orbitron', sans-serif;
+    width: 180px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}

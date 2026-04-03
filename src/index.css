@@ -1,0 +1,9 @@
+body{
+    background: radial-gradient(circle, #1a1a1f, #0b0b0f);
+    font-family: 'Orbitron', sans-serif;
+}
+
+text{
+    color: var(--color-pink-accent);
+    text-shadow: 0 0 5px #ff2d75, 0 0 15px #c2185b;
+}
