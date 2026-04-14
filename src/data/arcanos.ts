@@ -63,7 +63,7 @@ export const arcanos: Arcano[] = [
         imagen: "/images/justicia.webp"
     },
     {
-        nombre: "El ahorcado",
+        nombre: "El Colgado",
         significado: "El Colgado es la carta del sacrificio. Indica que hay que pagar un precio para alcanzar la iluminación. El abandono del Colgado abre el camino al renacimiento hacia una nueva vida, aunque este camino está plagado de dolor suspendido en el tiempo y, en última instancia, culmina en la muerte.",
         imagen: "/images/colgado.webp"
     },
@@ -88,7 +88,7 @@ export const arcanos: Arcano[] = [
         imagen: "/images/torre.webp"
     },
     {
-        nombre: "Las Estrellas",
+        nombre: "La Estrella",
         significado: "La Estrella es la carta de la esperanza. En la noche más oscura, hay una luz que ilumina el camino de regreso a casa. La Estrella es inspiración, motivación y nos da fuerza para seguir adelante.",
         imagen: "/images/estrellas.webp"
     },
