@@ -1,6 +1,34 @@
 import { useState } from "react";
 import { arcanos } from "./data/arcanos";
 import type { Arcano } from "./types/Arcano";
+import TarotBoard from "./components/TarotBoard";
+import "./App.css";
+
+function App() {
+  const [carta, setCarta] = useState<Arcano | null>(null);
+
+  const lanzarCarta = () => {
+    const randomIndex = Math.floor(Math.random() * arcanos.length);
+    setCarta(arcanos[randomIndex]);
+  };
+
+  return (
+    <div className="tablero">
+      <h1>Tarot</h1>
+
+      <TarotBoard
+        carta={carta}
+        lanzarCarta={lanzarCarta}
+      />
+    </div>
+  );
+}
+
+export default App;
+
+/* import { useState } from "react";
+import { arcanos } from "./data/arcanos";
+import type { Arcano } from "./types/Arcano";
 import './App.css'
 
 function App() {
@@ -39,7 +67,7 @@ function App() {
           <p>Silencio la señal y abro el canal, que caiga el velo y hable lo oculto, sin miedo y sin filtro, solo verdad.</p>  
         }
         <button onClick={lanzarCarta}>
-        Suerte
+          Suerte
         </button>
       </div>
     </div>  
@@ -47,4 +75,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
